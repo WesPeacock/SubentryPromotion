@@ -1,4 +1,4 @@
-ghubadd="https://github.com/sil-dictionary-lexical-services/SubentryPromotion/blob/master"
+ghubadd="${ghubadd:-https://github.com/sil-dictionary-lexical-services/SubentryPromotion/blob/master}"
 wget -O BearBullMole-Initial-Empty.fwbackup  "$ghubadd/SampleFiles/BearBullMole-Initial-Empty.fwbackup?raw=true"
 wget -O BearBullMole-complex-promo-import-settings.map "$ghubadd/SampleFiles/BearBullMole-complex-promo-import-settings.map?raw=true"
 wget -O BearBullMole-complex.db "$ghubadd/SampleFiles/BearBullMole-complex.db?raw=true"
